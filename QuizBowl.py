@@ -20,6 +20,8 @@ def returnQuestions():
 
 questionBank = returnQuestions()
 
+random.shuffle(questionBank)
+
 correct = 0
 incorrect = 0
 
